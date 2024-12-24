@@ -1,9 +1,9 @@
 
 
-YouTube Transcript Application
+## YouTube Transcript Application
 This is a simple and interactive web application built with Streamlit that fetches and displays the transcript of a YouTube video along with timestamps. It uses the YouTube Transcript API to extract subtitles (if available) in the user’s preferred language.
 
-Features
+## Features
 Video Transcript Extraction: Fetch subtitles for a YouTube video in various languages.
 Language Selection: Supports multiple languages such as English, Hindi, Spanish, French, German, and Japanese.
 Timestamped Transcripts: Displays the transcript text with readable timestamps in MM:SS format.
@@ -13,33 +13,34 @@ Installation and Setup
 Prerequisites
 Python 3.7 or higher
 pip (Python package manager)
-Step-by-Step Instructions
-Clone the repository:
 
+## Step-by-Step Instructions
+
+## Clone the repository:
 bash
 Copy code
 git clone https://github.com/kishan444444/YouTube-Transcript-Application.git
 cd your-repo-name
-Install required packages:
 
+## Install required packages:
 bash
 Copy code
 pip install -r requirements.txt
 
-Ensure the following libraries are included in the requirements.txt file:
+## Ensure the following libraries are included in the requirements.txt file:
 plaintext
 Copy code
 streamlit
 youtube-transcript-api
 Run the application:
 
-bash
+## bash
 Copy code
 streamlit run app.py
 Open the application:
 Open your browser and navigate to http://localhost:8501.
 
-How to Use
+## How to Use
 Enter the YouTube video URL in the text input field.
 Example: https://www.youtube.com/watch?v=VIDEO_ID.
 Select your preferred language for the transcript from the dropdown menu.
