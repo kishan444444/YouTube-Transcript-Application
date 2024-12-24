@@ -18,15 +18,15 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/kishan444444/YouTube-Transcript-Application.git
 cd your-repo-name
 Install required packages:
 
 bash
 Copy code
 pip install -r requirements.txt
-Ensure the following libraries are included in the requirements.txt file:
 
+Ensure the following libraries are included in the requirements.txt file:
 plaintext
 Copy code
 streamlit
@@ -37,17 +37,13 @@ bash
 Copy code
 streamlit run app.py
 Open the application:
-
 Open your browser and navigate to http://localhost:8501.
+
 How to Use
 Enter the YouTube video URL in the text input field.
-
 Example: https://www.youtube.com/watch?v=VIDEO_ID.
 Select your preferred language for the transcript from the dropdown menu.
-
 Click the "Show Transcript with Timestamps" button.
-
 View the transcript with timestamps in the MM:SS format.
-
 If subtitles are unavailable or the video URL is invalid, appropriate error messages will guide you.
 
